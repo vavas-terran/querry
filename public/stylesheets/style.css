@@ -1,0 +1,66 @@
+body {
+  padding: 50px;
+  font-family: 'Quicksand';
+  font-weight: 400
+
+
+}
+
+/* SECTION HELLO */
+
+#hello {
+    background: url(/images/barra.gif) no-repeat;
+    background-color: #23AFC8;
+    background-position: bottom;
+    color: white
+}
+.title h1 {
+    font-size: 100px;
+    line-height: 20px
+}
+.title h3 {
+    font-size: 50px;
+}
+.title p {
+    line-height: 0;
+}
+
+
+.box{/* BOTON */
+	position: absolute;
+	background: transparent;
+	border:2px solid #fff;
+	color:#fff;
+	padding:15px;
+	padding-right: 60px;
+	padding-left: 60px;
+	margin-top: 60px;
+
+
+}
+.box:hover{
+ opacity: 0.8;
+
+}
+
+
+
+/* SECCION COMO FUNCIONA */
+
+
+#comoFunciona{
+	background:url("/public/images/personaje2.png")no-repeat;
+	background-size: 40%;
+	background-position: center;
+	background-color: #fff;
+	color:#CC4A79;
+
+}
+
+/* SECCION SERVICIOS */
+
+#servicios{
+	background-color: #E66D65
+}
+
+
