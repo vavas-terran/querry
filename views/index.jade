@@ -11,13 +11,32 @@ block content
 			p Divertidas encuestas , faciles de responder y  rapidas 
 			br
 			p Crea una encuesta y comparti el link o el codigo QR al publico
-			input(type="button" class="md-raised md-primary box" value="ingresa")
+			a(class="md-raised md-primary box" id="login" href="/profile") Ingresá
 
 
 
-	section(layout="row" layout-fill id="comoFunciona")
-		div(flex="25")
-		div(flex="50")
-			h1(style="text-align:center") Como funciona?
-	section(layout="row" layout-fill id="servicios")
+	section(layout="column" layout-fill layout-align="space-around center" id="comoFunciona")
+		div()
+				h1(style="font-size:60px") Como funciona
+		div()
+			div(layout="row" layout-margin )
+				div(flex-order="1")
+					img(src="images/icons/globaltext.png")
+					h3 Incia una encuesta
+					p Podes crear encuestas personalizadas, agregar  audio, imagenes o video.Y tambien podes encontrar encuestas predeterminadas.Facil
+				div(flex-order="2")
+					img(src="images/icons/share.png")
+					h3 Compartila
+					p Una vez erminada la edicion de la encuesta la compartes a tus redes sociales , por email o podes utilizar el codigo QR asignado para tu perfil
+				div(flex-order="3")
+					img(src="images/icons/statistics.png")
+					h3 Recibi las estadisticas
+					p Mientras las personas vallan contestando nosotros vamos a ir resolviendo una estadistica que la vas a poder visualizar desde tu perfil
+
+
+
+
+
+	section(layout="row" layout-fill id="servicios"  ng-controller="sliderCount")
+		div(flex="35")
 

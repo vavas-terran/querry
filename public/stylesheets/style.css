@@ -1,11 +1,10 @@
 body {
-  padding: 50px;
-  font-family: 'Quicksand';
-  font-weight: 400
-
-
+    font-family: 'Quicksand';
+    font-weight: 400
 }
-
+a{
+    text-decoration: none;
+}
 /* SECTION HELLO */
 
 #hello {
@@ -24,43 +23,37 @@ body {
 .title p {
     line-height: 0;
 }
-
-
-.box{/* BOTON */
-	position: absolute;
-	background: transparent;
-	border:2px solid #fff;
-	color:#fff;
-	padding:15px;
-	padding-right: 60px;
-	padding-left: 60px;
-	margin-top: 60px;
-
-
+.box {
+    /* BOTON */
+    
+    position: absolute;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 15px;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-top: 60px;
 }
-.box:hover{
- opacity: 0.8;
-
+.box:hover {
+    opacity: 0.8;
 }
-
-
-
 /* SECCION COMO FUNCIONA */
 
+#comoFunciona {
 
-#comoFunciona{
-	background:url("/public/images/personaje2.png")no-repeat;
-	background-size: 40%;
-	background-position: center;
-	background-color: #fff;
-	color:#CC4A79;
-
+    background-color: #fff;
+    background-image: url(/images/personaje2.png)no-repeat;
+    text-align: center;
 }
 
+#comoFunciona img{
+	width: 150px;
+	height: 120px;
+}
 /* SECCION SERVICIOS */
 
-#servicios{
-	background-color: #E66D65
+#servicios {
+    background-color: #E66D65
 }
-
 

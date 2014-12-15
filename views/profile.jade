@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	div(layout="row" layout-fill)
+		div(flex="100")
+			div(layout="row")
+				div(flex="20")
+					md-content
+						md-toolbar(md-scroll-shrink)
+							div(class="md-toolbar-tools")
+							h2
+							span Toolbar: light-theme (default)
+				div(flex style="background-color:red")
+
