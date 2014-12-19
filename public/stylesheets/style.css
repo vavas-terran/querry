@@ -112,6 +112,15 @@ section#querry{
     color: white;
     text-transform: uppercase;
 }
+
+.btn{
+
+    background: url("/public/images/icons/addIcon.png") no-repeat;
+    background-position: center;
+    display: inline-block;
+    width: 60px;
+
+}
 section#listas{
    background-color: white
 
