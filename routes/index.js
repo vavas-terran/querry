@@ -9,4 +9,8 @@ router.get('/', function(req, res) {
 router.get('/profile', function(req, res) {
   res.render('profile', { title: 'Querry' });
 });
+
+router.get('/form', function(req, res){
+	res.render('demo',{});
+});
 module.exports = router;

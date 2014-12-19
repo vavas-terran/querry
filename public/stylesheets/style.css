@@ -1,6 +1,6 @@
 body {
-    font-family: 'Quicksand';
-    font-weight: 400
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700
 }
 a{
     text-decoration: none;
@@ -22,6 +22,7 @@ a{
 }
 .title p {
     line-height: 0;
+
 }
 .box {
     /* BOTON */
@@ -45,11 +46,20 @@ a{
     background-color: #fff;
     background-image: url(/images/personaje2.png)no-repeat;
     text-align: center;
+
 }
 
 #comoFunciona img{
 	width: 150px;
 	height: 120px;
+}
+
+#comoFunciona p{
+color:#696969;
+}
+article mark{
+    background:#61B6E9;
+
 }
 /* SECCION SERVICIOS */
 
@@ -57,3 +67,52 @@ a{
     background-color: #E66D65
 }
 
+.nav-icon{
+    background-image: url("/images/icons/nav-icon.png")no-repeat;
+    display: inline-block;
+}
+
+
+#profile a{
+    
+}
+
+section#querry{
+    background-color: #2eb3bf;
+    text-align:center;
+
+}
+.form #opciones{
+    background-color: #fff;
+    text-align:center;
+    border-radius: 60px
+
+}
+.form #consigna{
+    text-align:center;
+
+}
+#consigna input{
+    border:none;
+    background-color: transparent;
+    background-image: url(/images/lineForm.png);
+    border-bottom-style: solid;
+    width:100%;
+}
+#consigna input{
+    border:none;
+    background-color: transparent;
+    border-bottom-style: solid;
+    border-color: #000;
+    color: white;
+    width:100%;
+    font-weight: 700;
+}
+#consigna label{
+    color: white;
+    text-transform: uppercase;
+}
+section#listas{
+   background-color: white
+
+}

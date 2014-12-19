@@ -2,13 +2,26 @@ extends layout
 
 block content
 	div(layout="row" layout-fill)
-		div(flex="100")
-			div(layout="row")
-				div(flex="20")
-					md-content
-						md-toolbar(md-scroll-shrink)
-							div(class="md-toolbar-tools")
-							h2
-							span Toolbar: light-theme (default)
-				div(flex style="background-color:red")
+		section(layout="row" flex)
+			md-sidenav(class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$media('gt-md')")
+				md-toolbar(class="md-tall md-accent" layout="column" layout-align="space-around center")
+					div
+						md-button(ng-click="toggleLeft" class="nav-icon")
+					div
+						img(src="images/userProfile.png", alt="starbucks" style="width:100px")
+					div
+						h1(class="md-toolbar-tools") Mostazza
+				md-list
+					div(ng-controller="nav-bar")
+						md-item(ng-repeat="item in items")
+							md-item-content
+								div(class="md-tile-left")
+									img(ng-src="" class="icon")
+								div(class="md-tile-content")
+									a(href="{{item.link}}"){{item.li}}
+		section(layout="row" flex id="container" ng-controller="templates")
+			div(ng-view)
+
+
+
 
