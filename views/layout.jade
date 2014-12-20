@@ -19,32 +19,7 @@ html
     script(src="/bower_components/angular-animate/angular-animate.js")
     script(src="/bower_components/angular-aria/angular-aria.js")
     script(src="/bower_components/angular-route/angular-route.js")
-    script(type="text/javascript").
-     var app = angular.module('querry',['ngMaterial']);
-        app.controller('nav-bar', function($scope){
-            $scope.items = [
-                            {
-                                icon: '',
-                                li  : 'Crear encuesta',
-                                link: '#/page-1'
-                            },
-                            {
-                                icon: '',
-                                li  : 'Estadistica',
-                                link: '#/estadistica'
-                            },
-                            {
-                                icon: '',
-                                li  : 'Encuestas',
-                                link: '#/encuestas'
-                            },
-                            {
-                                icon: '',
-                                li  : 'Editar perfil',
-                                link: '#/editarperfil'
-                            }
-                            ]
-                    });
+    script(src="/controllers/controllers.js")   
 
 
     block content

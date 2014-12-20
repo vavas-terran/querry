@@ -13,4 +13,10 @@ router.get('/profile', function(req, res) {
 router.get('/form', function(req, res){
 	res.render('demo',{});
 });
+
+router.get('/views/:name', function (req, res)
+ { var name = req.params.name;
+   res.render('views/' + name);
+});
+
 module.exports = router;

@@ -92,13 +92,7 @@ section#querry{
     text-align:center;
 
 }
-#consigna input{
-    border:none;
-    background-color: transparent;
-    background-image: url(/images/lineForm.png);
-    border-bottom-style: solid;
-    width:100%;
-}
+
 #consigna input{
     border:none;
     background-color: transparent;
@@ -118,10 +112,16 @@ section#querry{
     background: url("/public/images/icons/addIcon.png") no-repeat;
     background-position: center;
     display: inline-block;
-    width: 60px;
+    width: 32px;
+    height: 32px;
+    margin-top: 25px;
+    margin-left:5px;
+}
+.btn:hover{
+opacity: 0.2
 
 }
-section#listas{
-   background-color: white
+#listas{
+   background-color: #f2f2f2
 
 }
