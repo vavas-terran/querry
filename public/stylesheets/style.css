@@ -126,4 +126,7 @@ opacity: 0.2
 
 }
 
-::-webkit-scrollbar { width: 12px; }
+#listas a:hover{
+cursor: pointer;
+opacity: 0.5
+}
