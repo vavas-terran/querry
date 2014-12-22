@@ -6,8 +6,8 @@ router.get('/', function(req, res) {
   res.render('index', { title: 'Querry' });
 });
 
-router.get('/profile', function(req, res) {
-  res.render('profile', { title: 'Querry' });
+router.get('/dashboard', function(req, res) {
+  res.render('dashboard', { title: 'Querry' });
 });
 
 router.get('/form', function(req, res){

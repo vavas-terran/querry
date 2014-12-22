@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	include partials/nav-left
+	div(layout="column" layout-fill)
+		md-toolbar(ng-controller="AppCtrl")
+			div(layout="row")
+				img(ng-click="toggleLeft()" src="public/images/icons/nav-icon.png" style="width:20px;height:20px;margin:20px 0 0 10px; cursor:pointer; display:inline-block")
+				h2.md-toolbar-tools() Querry
+		include partials/formulario
+					
+
+
+
