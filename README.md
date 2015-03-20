@@ -1,2 +1,2 @@
 # querry
-App sencilla utilizando Angular.js
+Simple App using Angular.js
